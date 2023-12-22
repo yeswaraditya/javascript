@@ -8,7 +8,7 @@
     };*/
 
 
-    const linkedin = {
+    /*const linkedin = {
 
         username : "shar",
         posts: 322,
@@ -17,4 +17,6 @@
         details: "dfdwffdfdfdfdfdwf df df df d f adf f",
 
     };
-    document.write(linkedin["posts"]);
+    document.write(linkedin["posts"]);*/
+
+    
