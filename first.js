@@ -63,13 +63,28 @@ else if (marks>=0&& marks<=49)
 
 
 // loops
+// for -of loop example
+
+// let string="eswar aditya";
+// let size
+// for(let i of string)
+// {
+//     console.log("i= ",i);
+//     size++;
+// }
+// console.log("size of string is :  ",size);
 
 
-let string="eswar aditya";
-let size
-for(let i of string)
-{
-    console.log("i= ",i);
-    size++;
-}
-console.log("size of string is :  ",size);
+// for- in loop example 
+// for in loop returns keys
+
+// let student={
+//     name:"eswar",
+//     age:"12",
+//     cgpa: 8.5
+// }
+
+// for(let i in student)
+// {
+//     console.log(i);
+// }
