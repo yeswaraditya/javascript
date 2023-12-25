@@ -1,11 +1,11 @@
-    const product = {
+    /*const product = {
     title : "Ball pen",
     rating : 4,
     offer: 5,
     price : 270,
 
 
-    };
+    };*/
 
 
     /*const linkedin = {
@@ -19,3 +19,14 @@
     };
     document.write(linkedin["posts"]);*/
 
+
+    let number=prompt("enter a number: ");
+
+    if(number%5==0)
+    {
+        console.log("is multiple of 5");
+    }
+    else
+    {
+        console.log("not a multiple of 5");
+    }
