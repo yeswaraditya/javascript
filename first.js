@@ -60,3 +60,16 @@ else if (marks>=0&& marks<=49)
     console.log("grade is F");
 }*/
 
+
+
+// loops
+
+
+let string="eswar aditya";
+let size
+for(let i of string)
+{
+    console.log("i= ",i);
+    size++;
+}
+console.log("size of string is :  ",size);
