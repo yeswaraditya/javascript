@@ -89,3 +89,17 @@ else if (marks>=0&& marks<=49)
 // {
 //     console.log(i);
 // }
+
+
+
+// Date
+// Date start from 1-1-1970
+
+let d =new Date();
+window.alert("Date= "+d);
+window.alert("FullYeare= "+d.getFullYear());
+window.alert("Month= "+d.getMonth());
+window.alert("Day= "+d.getDay());
+window.alert("Hours= "+d.getHours());
+window.alert("Seconds= "+d.getSeconds());
+window.alert("Minutes= "+d.getMinutes());
