@@ -1,4 +1,5 @@
-   
+// javascript practice
+
    //practice Question 1
    /*const product = {
     title : "Ball pen",
