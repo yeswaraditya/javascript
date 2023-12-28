@@ -8,24 +8,154 @@
     <style type="text/css">
 
         body{
-            background-color: black;
+            background-color: #EEF5FF;
         }
      
         .container{
             
-            height: 30em;
-            width: 20em;
-            border: 1px solid white;
+            height: 35em;
+            width: 30em;
+            border: 6px solid #176B87;
+            border-radius: 1em;
+            margin-left: 45em;
+            margin-top: 10em;
 
+
+        }
+        h1{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 30px;
+            
+            margin-left: 3em;
+            margin-top: 9px;
+            
+        }
+        #first_text_box{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            height: 30px;
+            width: 20em;
+            margin-left: 8em;
+            margin-top: 3em;
+            border-radius: 5px;
+            border-color:black;
+        }
+        #second_text_box{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            height: 30px;
+            width: 20em;
+            margin-left: 8em;
+            margin-top: 2em;
+            border-radius: 5px;
+            border-color: black;
+        }
+        #selectionbox{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            height: 30px;
+            width: 20em;
+            margin-left: 8em;
+            margin-top: 2em;
+            border-radius: 5px;
+            border-color: black;
+        }
+        #calculate{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            height: 30px;
+            width: 20em;
+            margin-left: 8em;
+            margin-top: 2em;
+            border-radius: 5px;
+            border-color: black;
+            background-color: #176B87;
+            color: white;
+        }
+        #resultbox{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace;
+            height: 30px;
+            width: 20em;
+            margin-left: 8em;
+            margin-top: 2em;
+            border-radius: 5px;
+            border-color: black;
         }
     </style>
     <script type="text/javascript">
-        //js
+        function operation()
+        {
+            let a=parseFloat(document.getElementById("first_text_box").value);
+            let b=parseFloat(document.getElementById("second_text_box").value);
+            let selection=document.getElementById("selectionbox").value
+            switch(selection)
+            {
+                case "Addition":
+                   document.getElementById("resultbox").value=a+b;
+                   break;
+
+                case "Subtraction":
+                   document.getElementById("resultbox").value=a-b;
+                   break;
+                case "Multiplication":
+                   document.getElementById("resultbox").value=a*b;
+                   break;
+                case "Division":
+                   document.getElementById("resultbox").value=a/b;
+                   break;
+
+                default:
+                   window.alert("Invalid Operation ");
+            }
+        }
+
+
     </script>
 </head>
 <body>
 
-    <div class="container"></div>
+    <div class="container">
+
+        <h1>SIMPLE CALCULATOR</h1>
+
+        <form>
+
+            <input type="text" placeholder="enter a number" id="first_text_box" name="firstbox" >
+            <br><br>
+            <input type="text" placeholder="enter a number" id="second_text_box" name="secondbox" >
+
+           <select id="selectionbox">
+
+            <option>select operation</option>
+            <option>Addition</option>
+            <option>Subtraction</option>
+            <option>Multiplication</option>
+            <option>Division</option>
+           </select>
+            
+            
+            <input type="button" value="calculate" id="calculate" name="calculatebutton" onclick="operation()" >
+            
+            
+            <input type="text" placeholder="answer" id="resultbox" name="resultbox"  >
+
+
+            
+
+
+            
+
+        </form>
+
+    </div>
     
 </body>
 </html>
