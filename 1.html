@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script type="text/css" >
+    <script type="text/javascript" >
 
       function f()
       {
-        window.alert("this is javascript");
+       document.getElementById("first").style.background="yellow";
       }
 
     </script>
 
 
 </head>
-<body>
+<body >
+       <!-- <body onload="f()"> this function in bodytag loads function first -->
     
 
-    <input type="checkbox" name="check" onchange="f()">select   
+    <!-- <input type="checkbox" name="check" onchange="f()" > 
 
-    <input type="button" name="check" onclick="f()">       //suggested for buttons
+    <input type="button" name="check" value="clickme" onclick="f()">       
     
-    <input type="button" name="check" ondbldclick="f()">   //suggested for buttons
+    <input type="button" name="check" value="clickme" ondblclick="f()">   
+
+    <input type="text" name="txt" value="enter a value " onkeydown="f()">   
+
+    <input type="text" name="txt" value="enter a value " onkeyup="f()">    -->
+
+    <!-- <input type="text" name="txt" value="enter a value " onkeypress="f()">    -->
+
+  
+  <!-- <input  type="button" value="enter value=" name="first"  id="first" onfocus="f()"> -->
+  
+  <input  type="button" value="enter value=" name="first"  id="first" onfocus="f()">
+
+     
 
     
 
