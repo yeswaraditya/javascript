@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onblur Event Example</title>
+</head>
+<body>
+
+<label for="myInput">Type something:</label>
+<input type="text" id="myInput" onblur="displayAlert()">
+
+<script>
+    function displayAlert() {
+        alert("You moved away from the input field!");
+    }
+</script>
+
+</body>
+</html>
