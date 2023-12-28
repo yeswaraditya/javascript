@@ -93,7 +93,7 @@ else if (marks>=0&& marks<=49)
 
 
 // Date
-// Date start from 1-1-1970
+// Date start from 1-1-1970.
 
 let d =new Date();
 window.alert("Date= "+d);
