@@ -26,3 +26,7 @@
 // document.write(output);
 
 //string methods
+// trim() removes whitespaces
+
+let str1="hello       world        all";
+document.write(str1.trim());
