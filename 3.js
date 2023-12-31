@@ -71,10 +71,14 @@
 //array practice question
 
 let arr=[ 35,23,33,43,3,2,23,23];
+let sum=0;
+// with for loop
+// for(let i=0;i<arr.length;i++)
+// {
+//    sum+=i;
 
-//with for loop
-for(let i=0;i<arr.length;i++)
-{
-   sum+=i;
+// }
+// document.write("average marks are",sum/8);
 
-}
+
+// with for-of loop
