@@ -54,7 +54,7 @@
 
 
 //array
-let arr=['eswar','aditya',3006,'example'];
+// let arr=['eswar','aditya',3006,'example'];
 
 // for(let i=0;i<arr.length;i++)
 // {
@@ -62,7 +62,19 @@ let arr=['eswar','aditya',3006,'example'];
 
 // }
 
-for(let x of arr)
+// for(let x of arr)
+// {
+//     document.write(x.toUpperCase());
+// }
+
+
+//array practice question
+
+let arr=[ 35,23,33,43,3,2,23,23];
+
+//with for loop
+for(let i=0;i<arr.length;i++)
 {
-    document.write(x);
+   sum+=i;
+
 }
