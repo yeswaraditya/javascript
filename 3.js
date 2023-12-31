@@ -28,5 +28,16 @@
 //string methods
 // trim() removes whitespaces
 
-let str1="hello       world        all";
-document.write(str1.trim());
+// let str1="hello       world        all";
+//document.write(str1.trim());
+
+//document.write(str1.slice(1,4));
+
+let str1="hello";
+let str2="123";
+//let result=str1.concat(str2); //or// let result=str1+str2
+//document.write(result);
+
+// document.write(str1.replace("l","3"));
+// document.write(str1.replaceAll("l","3"));
+document.write(str1.charAt(3));
