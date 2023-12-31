@@ -33,11 +33,20 @@
 
 //document.write(str1.slice(1,4));
 
-let str1="hello";
-let str2="123";
+// let str1="hello";
+// let str2="123";
 //let result=str1.concat(str2); //or// let result=str1+str2
 //document.write(result);
 
 // document.write(str1.replace("l","3"));
 // document.write(str1.replaceAll("l","3"));
-document.write(str1.charAt(3));
+// document.write(str1.charAt(3));
+
+
+// string practice
+
+let fullName=prompt("enter full name");
+let a="@";
+let len=fullName.length();
+
+document.write(a,fullName,len);
