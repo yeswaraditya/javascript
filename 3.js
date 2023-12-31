@@ -51,3 +51,18 @@
 
 // document.write(a,fullName,fullName.length);
 
+
+
+//array
+let arr=['eswar','aditya',3006,'example'];
+
+// for(let i=0;i<arr.length;i++)
+// {
+//     document.write(arr[i]);
+
+// }
+
+for(let x of arr)
+{
+    document.write(x);
+}
