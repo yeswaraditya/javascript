@@ -45,8 +45,8 @@
 
 // string practice
 
-let fullName=prompt("enter full name");
-let a="@";
+// let fullName=prompt("enter full name");
+// let a="@";
 
 
-document.write(a,fullName,fullName.length);
+// document.write(a,fullName,fullName.length);
