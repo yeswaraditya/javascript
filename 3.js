@@ -10,6 +10,19 @@
 
 // Template literals
 
-let templit=`this is template literal`;
+// let templit=`this is template literal`;
 
-document.write(typeof templit);
+// document.write(typeof templit);
+
+
+// example for template literals
+// let student={
+//     name:'eswar',
+//     study:'btech',
+// };
+
+// let output=`hi  this is ${student.name} and I study ${student.study}`
+
+// document.write(output);
+
+//string methods
