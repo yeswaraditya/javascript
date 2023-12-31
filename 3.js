@@ -47,6 +47,6 @@
 
 let fullName=prompt("enter full name");
 let a="@";
-let len=fullName.length();
 
-document.write(a,fullName,len);
+
+document.write(a,fullName,fullName.length);
